@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addProduct"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="45dp">
+
+        <ImageView
+            android:id="@+id/chooseImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#F4F4F4"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_add_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:scaleType="fitXY" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/productName"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Product Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Price"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="Details"
+        android:inputType="text" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Gategory"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Food"
+            android:textColor="#303333"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Clothes"
+            android:textColor="#303333"
+            android:textSize="16sp" />
+
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electronics"
+            android:textColor="#303333"
+            android:textSize="16sp" />
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/addNewProduct"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimary"
+        android:text="add"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

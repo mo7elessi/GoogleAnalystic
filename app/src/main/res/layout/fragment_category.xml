@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".category"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/btnFood"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary"
+        android:text="food"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnClothes"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary"
+        android:text="Clothes"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnElectronic"
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary"
+        android:text="Electronics"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#4CAF50"
+        android:text="Add new product"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
